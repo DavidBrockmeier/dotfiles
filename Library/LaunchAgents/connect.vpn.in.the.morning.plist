@@ -7,7 +7,7 @@
 	<key>ProgramArguments</key>
 	<array>
 		<string>/usr/bin/open</string>
-		<string>/Users/klas.mellbourn/Library/Mobile Documents/com~apple~Automator/Documents/Connect VPN.app</string>
+		<string>/Users/David/Library/Mobile Documents/com~apple~Automator/Documents/Connect VPN.app</string>
 	</array>
 	<key>StartCalendarInterval</key>
 	<array>

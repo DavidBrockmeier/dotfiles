@@ -12,7 +12,7 @@ I use [yadm](https://github.com/TheLocehiliosan/yadm) to manage my dotfiles.
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" &&
 eval "$(/opt/homebrew/bin/brew shellenv)" &&
 brew install yadm &&
-yadm clone --bootstrap https://github.com/Mellbourn/dotfiles.git &&
+yadm clone --bootstrap https://github.com/DavidBrockmeier/dotfiles.git &&
 .config/yadm/bootstrap-sudo &&
 yadm decrypt
 ```
@@ -33,7 +33,7 @@ sudo apt upgrade -y
 sudo apt install -y git yadm
 ssh-keygen -t ed25519 -C "klas@mellbourn.net"
 <add ssh key to github>
-yadm clone --recurse-submodules https://github.com/Mellbourn/dotfiles.git
+yadm clone --recurse-submodules https://github.com/DavidBrockmeier/dotfiles.git
 yadm bootstrap
 ~/.config/yadm/bootstrap-sudo
 yadm decrypt

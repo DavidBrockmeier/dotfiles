@@ -1,5 +1,5 @@
 [user]
-	name = Klas Mellbourn
+	name = David Brockmeier
 	signingkey = 9421003411C7A828
 [include]
     path = .gitconfig.pager
@@ -106,6 +106,6 @@
 [url "https://github.com/rust-lang/crates.io-index"]
     insteadOf = https://github.com/rust-lang/crates.io-index
 [maintenance]
-	repo = /Users/klas.mellbourn/code/klarna/klarna-app
+	repo = /Users/David/code/klarna/klarna-app
 [lfs]
 	locksverify = false
